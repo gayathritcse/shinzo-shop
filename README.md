@@ -80,9 +80,6 @@ This project leverages the Laravel framework, alongside HTML, CSS, JavaScript, P
 ### Menu Page
 ![Food Menu Page](Screenshots/Food_Menu.png)
 
-### Category Page
-![Category Page](Screenshots/Category.png)
-
 ### Details Page
 ![Product Details Page](Screenshots/Product_Details.png)
 
@@ -98,8 +95,5 @@ This project leverages the Laravel framework, alongside HTML, CSS, JavaScript, P
 
 You're welcome! If you need any more help or have any other questions, feel free to ask. Good luck with your Shinzo Shop project!
 
-## Contact
-- **Author**: [Your Name]
-- **Email**: [your-email@example.com]
-- **GitHub**: [your-username](https://github.com/your-username)
+
 
