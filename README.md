@@ -1,66 +1,105 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+### Shinzo Shop
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Description
+Shinzo Shop is a comprehensive web application for food ordering and table reservation in hotels. 
 
-## About Laravel
+This project leverages the Laravel framework, alongside HTML, CSS, JavaScript, PHP, and SQL to provide a seamless user experience for hotel customers.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Prerequisites
+- PHP >= 8.1
+- Composer
+- Node.js
+- MySQL
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Steps
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/gayathritcse/shinzo-shop.git
+    ```
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+2. **Install dependencies**
+    ```bash
+    composer install
+    npm install
+    ```
 
-## Learning Laravel
+3. **Set up the environment**
+    - Copy `.env.example` to `.env`
+    - Update `.env` with your database and other configuration settings
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+4. **Generate application key**
+    ```bash
+    php artisan key:generate
+    ```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+5. **Run database migrations and seeders**
+    ```bash
+    php artisan migrate --seed
+    ```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+6. **Build assets**
+    ```bash
+    npm run dev
+    ```
 
-## Laravel Sponsors
+7. **Start the development server**
+    ```bash
+    php artisan serve
+    ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Usage
+1. Open your browser and navigate to `http://localhost:8000`
+2. Register a new account or log in with existing credentials
+3. Explore the functionalities for food ordering and table reservation
 
-### Premium Partners
+## Features
+- User registration and authentication
+- Browse food menu
+- Order food online
+- Reserve tables
+- Admin dashboard for managing orders, reservations and website.
+- PayPal and Stripe gateways are available 
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Technologies Used
+- **Backend**: Laravel, PHP
+- **Frontend**: HTML, CSS, **JavaScript**
+- **Database**: MySQL
+- **Others**: Composer, NPM
 
-## Contributing
+## Screenshots
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Home Page
+![Front Page](Screenshots/Front_Page.png)
 
-## Code of Conduct
+### Admin Page
+![Admin Dashboard](Screenshots/Admin_Dashboard.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### User Page
+![User Page](Screenshots/User_Dashboard.png)
 
-## Security Vulnerabilities
+### Menu Page
+![Food Menu Page](Screenshots/Food_Menu.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Category Page
+![Category Page](Screenshots/Category.png)
 
-## License
+### Details Page
+![Product Details Page](Screenshots/Product_Details.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Cart Page
+![Cart Page](Screenshots/Cart.png)
+
+### Checkout Page
+![Checkout Page](Screenshots/Checkout.png)
+
+### Payment Gatway Page
+![Gateway Page](Screenshots/Payment_Gateway.png)
+
+
+You're welcome! If you need any more help or have any other questions, feel free to ask. Good luck with your Shinzo Shop project!
+
+## Contact
+- **Author**: [Your Name]
+- **Email**: [your-email@example.com]
+- **GitHub**: [your-username](https://github.com/your-username)
+
