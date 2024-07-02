@@ -90,7 +90,7 @@ This project leverages the Laravel framework, alongside HTML, CSS, JavaScript, P
 ![Checkout Page](Screenshots/Checkout.png)
 
 ### Payment Gatway Page
-![Gateway Page](Screenshots/Payment_Gateway.png)
+![Gateway Page](Screenshots/Payment_Gatway.png)
 
 
 You're welcome! If you need any more help or have any other questions, feel free to ask. Good luck with your Shinzo Shop project!
